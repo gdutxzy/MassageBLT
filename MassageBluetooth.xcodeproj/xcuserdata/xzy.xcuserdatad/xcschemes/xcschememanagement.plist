@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MassageBeta.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>MassageBluetooth.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>54A7DD2E1DBA26AA002EB37B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54A7DD491DBA26B4002EB37B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -13,6 +13,16 @@
 		54A7DD3D1DBA26AA002EB37B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A7DD3B1DBA26AA002EB37B /* Main.storyboard */; };
 		54A7DD3F1DBA26AA002EB37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A7DD3E1DBA26AA002EB37B /* Assets.xcassets */; };
 		54A7DD421DBA26AA002EB37B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A7DD401DBA26AA002EB37B /* LaunchScreen.storyboard */; };
+		54A7DD4B1DBA26B4002EB37B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A7DD391DBA26AA002EB37B /* ViewController.m */; };
+		54A7DD4C1DBA26B4002EB37B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A7DD361DBA26AA002EB37B /* AppDelegate.m */; };
+		54A7DD4D1DBA26B4002EB37B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A7DD331DBA26AA002EB37B /* main.m */; };
+		54A7DD501DBA26B4002EB37B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A7DD401DBA26AA002EB37B /* LaunchScreen.storyboard */; };
+		54A7DD511DBA26B4002EB37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A7DD3E1DBA26AA002EB37B /* Assets.xcassets */; };
+		54A7DD521DBA26B4002EB37B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A7DD3B1DBA26AA002EB37B /* Main.storyboard */; };
+		54A7DD601DBA28CC002EB37B /* Beta-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54A7DD5D1DBA2867002EB37B /* Beta-Info.plist */; };
+		54A7DD611DBA28D7002EB37B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54A7DD431DBA26AA002EB37B /* Info.plist */; };
+		54A7DD6C1DBA2B62002EB37B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54A7DD6E1DBA2B62002EB37B /* InfoPlist.strings */; };
+		54A7DD721DBA2C08002EB37B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54A7DD741DBA2C08002EB37B /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +36,25 @@
 		54A7DD3E1DBA26AA002EB37B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54A7DD411DBA26AA002EB37B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54A7DD431DBA26AA002EB37B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A7DD561DBA26B4002EB37B /* Massgebeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Massgebeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A7DD5D1DBA2867002EB37B /* Beta-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Beta-Info.plist"; sourceTree = "<group>"; };
+		54A7DD671DBA2A05002EB37B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		54A7DD681DBA2A06002EB37B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		54A7DD6D1DBA2B62002EB37B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54A7DD6F1DBA2B64002EB37B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		54A7DD731DBA2C08002EB37B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54A7DD751DBA2C09002EB37B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		54A7DD2C1DBA26AA002EB37B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A7DD4E1DBA26B4002EB37B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				54A7DD2F1DBA26AA002EB37B /* MassageBluetooth.app */,
+				54A7DD561DBA26B4002EB37B /* Massgebeta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +84,10 @@
 		54A7DD311DBA26AA002EB37B /* MassageBluetooth */ = {
 			isa = PBXGroup;
 			children = (
+				54A7DD761DBA2D1E002EB37B /* CateGories */,
+				54A7DD771DBA2D1E002EB37B /* Images */,
+				54A7DD781DBA2D1E002EB37B /* Macro */,
+				54A7DD791DBA2D1E002EB37B /* ViewControls */,
 				54A7DD351DBA26AA002EB37B /* AppDelegate.h */,
 				54A7DD361DBA26AA002EB37B /* AppDelegate.m */,
 				54A7DD381DBA26AA002EB37B /* ViewController.h */,
@@ -66,6 +96,8 @@
 				54A7DD3E1DBA26AA002EB37B /* Assets.xcassets */,
 				54A7DD401DBA26AA002EB37B /* LaunchScreen.storyboard */,
 				54A7DD431DBA26AA002EB37B /* Info.plist */,
+				54A7DD6E1DBA2B62002EB37B /* InfoPlist.strings */,
+				54A7DD581DBA2737002EB37B /* MassageBeta */,
 				54A7DD321DBA26AA002EB37B /* Supporting Files */,
 			);
 			path = MassageBluetooth;
@@ -77,6 +109,51 @@
 				54A7DD331DBA26AA002EB37B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54A7DD581DBA2737002EB37B /* MassageBeta */ = {
+			isa = PBXGroup;
+			children = (
+				54A7DD5D1DBA2867002EB37B /* Beta-Info.plist */,
+				54A7DD741DBA2C08002EB37B /* InfoPlist.strings */,
+			);
+			path = MassageBeta;
+			sourceTree = "<group>";
+		};
+		54A7DD761DBA2D1E002EB37B /* CateGories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CateGories;
+			sourceTree = "<group>";
+		};
+		54A7DD771DBA2D1E002EB37B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		54A7DD781DBA2D1E002EB37B /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		54A7DD791DBA2D1E002EB37B /* ViewControls */ = {
+			isa = PBXGroup;
+			children = (
+				54A7DD7A1DBA2D1E002EB37B /* ModeControl */,
+			);
+			path = ViewControls;
+			sourceTree = "<group>";
+		};
+		54A7DD7A1DBA2D1E002EB37B /* ModeControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModeControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +174,23 @@
 			name = MassageBluetooth;
 			productName = MassageBluetooth;
 			productReference = 54A7DD2F1DBA26AA002EB37B /* MassageBluetooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54A7DD491DBA26B4002EB37B /* Massgebeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A7DD531DBA26B4002EB37B /* Build configuration list for PBXNativeTarget "Massgebeta" */;
+			buildPhases = (
+				54A7DD4A1DBA26B4002EB37B /* Sources */,
+				54A7DD4E1DBA26B4002EB37B /* Frameworks */,
+				54A7DD4F1DBA26B4002EB37B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Massgebeta;
+			productName = MassageBluetooth;
+			productReference = 54A7DD561DBA26B4002EB37B /* Massgebeta.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,6 +214,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 54A7DD261DBA26AA002EB37B;
 			productRefGroup = 54A7DD301DBA26AA002EB37B /* Products */;
@@ -127,6 +222,7 @@
 			projectRoot = "";
 			targets = (
 				54A7DD2E1DBA26AA002EB37B /* MassageBluetooth */,
+				54A7DD491DBA26B4002EB37B /* Massgebeta */,
 			);
 		};
 /* End PBXProject section */
@@ -136,9 +232,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A7DD611DBA28D7002EB37B /* Info.plist in Resources */,
 				54A7DD421DBA26AA002EB37B /* LaunchScreen.storyboard in Resources */,
 				54A7DD3F1DBA26AA002EB37B /* Assets.xcassets in Resources */,
 				54A7DD3D1DBA26AA002EB37B /* Main.storyboard in Resources */,
+				54A7DD6C1DBA2B62002EB37B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A7DD4F1DBA26B4002EB37B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A7DD501DBA26B4002EB37B /* LaunchScreen.storyboard in Resources */,
+				54A7DD511DBA26B4002EB37B /* Assets.xcassets in Resources */,
+				54A7DD601DBA28CC002EB37B /* Beta-Info.plist in Resources */,
+				54A7DD521DBA26B4002EB37B /* Main.storyboard in Resources */,
+				54A7DD721DBA2C08002EB37B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +265,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		54A7DD4A1DBA26B4002EB37B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A7DD4B1DBA26B4002EB37B /* ViewController.m in Sources */,
+				54A7DD4C1DBA26B4002EB37B /* AppDelegate.m in Sources */,
+				54A7DD4D1DBA26B4002EB37B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -162,6 +282,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				54A7DD3C1DBA26AA002EB37B /* Base */,
+				54A7DD671DBA2A05002EB37B /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -170,8 +291,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				54A7DD411DBA26AA002EB37B /* Base */,
+				54A7DD681DBA2A06002EB37B /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		54A7DD6E1DBA2B62002EB37B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A7DD6D1DBA2B62002EB37B /* en */,
+				54A7DD6F1DBA2B64002EB37B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54A7DD741DBA2C08002EB37B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A7DD731DBA2C08002EB37B /* en */,
+				54A7DD751DBA2C09002EB37B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -214,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -253,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -283,6 +423,28 @@
 			};
 			name = Release;
 		};
+		54A7DD541DBA26B4002EB37B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/MassageBluetooth/MassageBeta/Beta-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cike.MassageBluetoothBeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54A7DD551DBA26B4002EB37B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/MassageBluetooth/MassageBeta/Beta-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cike.MassageBluetoothBeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -302,6 +464,15 @@
 				54A7DD481DBA26AA002EB37B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		54A7DD531DBA26B4002EB37B /* Build configuration list for PBXNativeTarget "Massgebeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A7DD541DBA26B4002EB37B /* Debug */,
+				54A7DD551DBA26B4002EB37B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
